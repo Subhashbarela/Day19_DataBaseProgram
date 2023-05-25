@@ -32,7 +32,8 @@ select count(Country)as 'Total Customer',Country from Customer group by(Country)
   select avg(Salary)as 'Total Salary' from Customer;
 
 
- 
+ --UC8_Join Table
+ select * from Customer c inner join Orders o on c.CustomerId=o.CustomerId;
 
 
 
