@@ -20,11 +20,10 @@ alter table Customer set Country ='India'  where id= 1;
 --UC4_Update table
 update Customer set Address='Jalgaon' where Customer_Name='Avinash';
 update Customer set Address='Nagpur' where Customer_Name='Vikas';
-<<<<<<< HEAD
-=======
+
 
 --UC5_Number of customer in each country
 select count(Country)as 'Total Customer',Country from Customer group by(Country);
 
 
->>>>>>> UC5_FindCustomerInCountryWise
+
