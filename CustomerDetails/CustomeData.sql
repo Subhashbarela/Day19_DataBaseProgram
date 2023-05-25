@@ -30,3 +30,9 @@ select count(Country)as 'Total Customer',Country from Customer group by(Country)
   select min(Salary)as 'Total Salary' from Customer;
   select sum(Salary)as 'Total Salary' from Customer;
   select avg(Salary)as 'Total Salary' from Customer;
+
+
+ 
+
+
+
