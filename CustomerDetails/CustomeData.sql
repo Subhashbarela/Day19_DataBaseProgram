@@ -20,10 +20,6 @@ alter table Customer set Country ='India'  where id= 1;
 --UC4_Update table
 update Customer set Address='Jalgaon' where Customer_Name='Avinash';
 update Customer set Address='Nagpur' where Customer_Name='Vikas';
-<<<<<<< HEAD
-=======
-
->>>>>>> ebcde107ffdaab809033ec5fa012885d6d034c37
 
 --UC5_Number of customer in each country
 select count(Country)as 'Total Customer',Country from Customer group by(Country);
@@ -34,13 +30,3 @@ select count(Country)as 'Total Customer',Country from Customer group by(Country)
   select min(Salary)as 'Total Salary' from Customer;
   select sum(Salary)as 'Total Salary' from Customer;
   select avg(Salary)as 'Total Salary' from Customer;
-
-
- 
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ebcde107ffdaab809033ec5fa012885d6d034c37
