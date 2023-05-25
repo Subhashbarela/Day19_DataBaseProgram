@@ -15,3 +15,5 @@ values('Rahul',7658654675,'Latur'),
  select * from Customer;
  --UC3_Add New Column in Existing table
 alter table Customer add  Country varchar(30),Salary varchar(30),Pincode int;
+
+alter table Customer set Country ='India'  where id= 1;
