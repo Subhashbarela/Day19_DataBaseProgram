@@ -33,7 +33,7 @@ select count(Country)as 'Total Customer',Country from Customer group by(Country)
 
 
  --UC8_Join Table
- select * from Customer c inner join Orders o on c.CustomerId=o.CustomerId;
+ select * from Customer C inner join Orders O on C.CustomerId=O.CustomerId;
 
 
 
